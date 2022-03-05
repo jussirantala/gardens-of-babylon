@@ -1,0 +1,7 @@
+{
+    "env": "test",
+    "cors": {
+        "origin": true,
+        "credentials": true
+    }
+}

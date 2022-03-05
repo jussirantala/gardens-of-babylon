@@ -1,0 +1,48 @@
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: The "key" argument must be of type string or an instance of ArrayBuffer, Buffer, TypedArray, DataView, KeyObject, or CryptoKey. Received undefined
+    at new NodeError (node:internal/errors:371:5)
+    at prepareSecretKey (node:internal/crypto/keys:577:11)
+    at new Hmac (node:internal/crypto/hash:132:9)
+    at Object.createHmac (node:crypto:162:10)
+    at ExchangeSocket.subscribeUserData (/mnt/hd600gb/devaus/ta-quant/agent/src/services/exchangeSocket.service.ts:100:12)
+    at WebSocket.<anonymous> (/mnt/hd600gb/devaus/ta-quant/agent/src/services/exchangeSocket.service.ts:20:12)
+    at WebSocket.emit (node:events:394:28)
+    at WebSocket.setSocket (/mnt/hd600gb/devaus/ta-quant/agent/node_modules/ws/lib/websocket.js:177:10)
+    at ClientRequest.<anonymous> (/mnt/hd600gb/devaus/ta-quant/agent/node_modules/ws/lib/websocket.js:671:15)
+    at ClientRequest.emit (node:events:394:28)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: The "key" argument must be of type string or an instance of ArrayBuffer, Buffer, TypedArray, DataView, KeyObject, or CryptoKey. Received undefined
+    at new NodeError (node:internal/errors:371:5)
+    at prepareSecretKey (node:internal/crypto/keys:577:11)
+    at new Hmac (node:internal/crypto/hash:132:9)
+    at Object.createHmac (node:crypto:162:10)
+    at ExchangeSocket.subscribeUserData (/mnt/hd600gb/devaus/ta-quant/agent/src/services/exchangeSocket.service.ts:100:12)
+    at WebSocket.<anonymous> (/mnt/hd600gb/devaus/ta-quant/agent/src/services/exchangeSocket.service.ts:20:12)
+    at WebSocket.emit (node:events:394:28)
+    at WebSocket.setSocket (/mnt/hd600gb/devaus/ta-quant/agent/node_modules/ws/lib/websocket.js:177:10)
+    at ClientRequest.<anonymous> (/mnt/hd600gb/devaus/ta-quant/agent/node_modules/ws/lib/websocket.js:671:15)
+    at ClientRequest.emit (node:events:394:28)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: The "key" argument must be of type string or an instance of ArrayBuffer, Buffer, TypedArray, DataView, KeyObject, or CryptoKey. Received undefined
+    at new NodeError (node:internal/errors:371:5)
+    at prepareSecretKey (node:internal/crypto/keys:577:11)
+    at new Hmac (node:internal/crypto/hash:132:9)
+    at Object.createHmac (node:crypto:162:10)
+    at ExchangeSocket.subscribeUserData (/mnt/hd600gb/devaus/ta-quant/agent/src/services/exchangeSocket.service.ts:100:12)
+    at WebSocket.<anonymous> (/mnt/hd600gb/devaus/ta-quant/agent/src/services/exchangeSocket.service.ts:20:12)
+    at WebSocket.emit (node:events:394:28)
+    at WebSocket.setSocket (/mnt/hd600gb/devaus/ta-quant/agent/node_modules/ws/lib/websocket.js:177:10)
+    at ClientRequest.<anonymous> (/mnt/hd600gb/devaus/ta-quant/agent/node_modules/ws/lib/websocket.js:671:15)
+    at ClientRequest.emit (node:events:394:28)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: The "key" argument must be of type string or an instance of ArrayBuffer, Buffer, TypedArray, DataView, KeyObject, or CryptoKey. Received undefined
+    at new NodeError (node:internal/errors:371:5)
+    at prepareSecretKey (node:internal/crypto/keys:577:11)
+    at new Hmac (node:internal/crypto/hash:132:9)
+    at Object.createHmac (node:crypto:162:10)
+    at ExchangeSocket.subscribeUserData (/mnt/hd600gb/devaus/ta-quant/agent/src/services/exchangeSocket.service.ts:100:12)
+    at WebSocket.<anonymous> (/mnt/hd600gb/devaus/ta-quant/agent/src/services/exchangeSocket.service.ts:20:12)
+    at WebSocket.emit (node:events:394:28)
+    at WebSocket.setSocket (/mnt/hd600gb/devaus/ta-quant/agent/node_modules/ws/lib/websocket.js:177:10)
+    at ClientRequest.<anonymous> (/mnt/hd600gb/devaus/ta-quant/agent/node_modules/ws/lib/websocket.js:671:15)
+    at ClientRequest.emit (node:events:394:28)

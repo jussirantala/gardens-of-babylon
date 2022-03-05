@@ -1,0 +1,7 @@
+{
+    "env": "production",
+    "cors": {
+        "origin": "your.domain.com",
+        "credentials": true
+    }
+}

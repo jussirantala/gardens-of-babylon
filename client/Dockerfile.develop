@@ -1,0 +1,11 @@
+FROM node:16
+
+# Create home directory and set permissions
+ENV HOME=/home/app
+RUN mkdir $HOME && chown -R 1000:1000 $HOME
+
+# Change user
+USER 1000
+
+# Change working directory
+WORKDIR $HOME/

@@ -1,0 +1,152 @@
+{
+	"Name": "Jussi's Garden",
+	"Width": 200,
+	"Length": 600,
+	"Height": 5,
+	"X": 0,
+	"Y": 0,
+	"Z": 0,
+	"Objects": [
+		{
+			"Name": "Flowerbed",
+			"Width": 30,
+			"Length": 30,
+			"Height": 2,
+			"X": 85,
+			"Y": 0,
+			"Z": 185,
+			"Objects": [
+				{
+					"Name": "Flower",
+					"Width": 1,
+					"Length": 1,
+					"Height": 20,
+					"X": 22.5,
+					"Y": 0,
+					"Z": 22.5
+				},
+				{
+					"Name": "Flower",
+					"Width": 1,
+					"Length": 1,
+					"Height": 20,
+					"X": 7.5,
+					"Y": 0,
+					"Z": 7.5
+				},
+				{
+					"Name": "Flower",
+					"Width": 1,
+					"Length": 1,
+					"Height": 20,
+					"X": 7.5,
+					"Y": 0,
+					"Z": 22.5
+				},
+				{
+					"Name": "Flower",
+					"Width": 1,
+					"Length": 1,
+					"Height": 20,
+					"X": 22.5,
+					"Y": 0,
+					"Z": 7.5
+				}
+			]
+		},
+		{
+			"Name": "Flowerbed",
+			"Width": 30,
+			"Length": 30,
+			"Height": 2,
+			"X": 85,
+			"Y": 0,
+			"Z": 285,
+			"Objects": [
+				{
+					"Name": "Flower",
+					"Width": 1,
+					"Length": 1,
+					"Height": 20,
+					"X": 22.5,
+					"Y": 0,
+					"Z": 22.5
+				},
+				{
+					"Name": "Flower",
+					"Width": 1,
+					"Length": 1,
+					"Height": 20,
+					"X": 7.5,
+					"Y": 0,
+					"Z": 7.5
+				},
+				{
+					"Name": "Flower",
+					"Width": 1,
+					"Length": 1,
+					"Height": 20,
+					"X": 7.5,
+					"Y": 0,
+					"Z": 22.5
+				},
+				{
+					"Name": "Flower",
+					"Width": 1,
+					"Length": 1,
+					"Height": 20,
+					"X": 22.5,
+					"Y": 0,
+					"Z": 7.5
+				}
+			]
+		},
+		{
+			"Name": "Flowerbed",
+			"Width": 30,
+			"Length": 30,
+			"Height": 2,
+			"X": 85,
+			"Y": 0,
+			"Z": 385,
+			"Objects": [
+				{
+					"Name": "Flower",
+					"Width": 1,
+					"Length": 1,
+					"Height": 20,
+					"X": 22.5,
+					"Y": 0,
+					"Z": 22.5
+				},
+				{
+					"Name": "Flower",
+					"Width": 1,
+					"Length": 1,
+					"Height": 20,
+					"X": 7.5,
+					"Y": 0,
+					"Z": 7.5
+				},
+				{
+					"Name": "Flower",
+					"Width": 1,
+					"Length": 1,
+					"Height": 20,
+					"X": 7.5,
+					"Y": 0,
+					"Z": 22.5
+				},
+				{
+					"Name": "Flower",
+					"Width": 1,
+					"Length": 1,
+					"Height": 20,
+					"X": 22.5,
+					"Y": 0,
+					"Z": 7.5
+				}
+			]
+		}
+	]
+}

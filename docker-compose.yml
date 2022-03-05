@@ -1,0 +1,42 @@
+version: "3.4"
+services:
+  garden-proxy:
+    container_name: garden-proxy
+    build:
+      context: ./proxy
+      dockerfile: Dockerfile
+    ports: 
+      - 8080:80
+    volumes:
+      - ./proxy/httpd.dev.conf:/usr/local/apache2/conf/httpd.conf
+    stdin_open: true
+    tty: true   
+    restart: 'unless-stopped'      
+  garden-client:
+    container_name: garden-client
+    environment:
+      - HOST=0.0.0.0
+      - PORT=8080
+    build:
+      context: ./client
+      dockerfile: Dockerfile.develop
+    volumes:
+    - ./client:/home/app
+    command: ./start-dev.sh 
+    stdin_open: true
+    tty: true  
+    restart: 'unless-stopped'
+  garden-server:
+    container_name: garden-server
+    build:
+      context: ./server
+      dockerfile: Dockerfile.develop 
+    environment:
+      - PORT=8080
+    volumes:
+      - ./server:/app
+      - ./gardenFiles:/app/gardenFiles
+    stdin_open: true
+    tty: true 
+    command: ./start-dev.sh
+    restart: 'unless-stopped'

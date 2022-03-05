@@ -1,0 +1,40 @@
+{
+	"Name": "Hanging gardens of Babylon",
+	"Width": 200,
+	"Length": 600,
+	"Height": 20,
+	"X": 0,
+	"Y": 0,
+	"Z": 0,
+	"Objects": [
+		{
+			"Name": "Flowerbed",
+			"Width": 5,
+			"Length": 10,
+			"Height": 2,
+			"X": 100,
+			"Y": 10,
+			"Z": 0,
+			"Objects": [
+				{
+					"Name": "Flower",
+					"Width": 1,
+					"Length": 1,
+					"Height": 2,
+					"X": 1,
+					"Y": 10,
+					"Z": 0
+				},
+				{
+					"Name": "Flower",
+					"Width": 1,
+					"Length": 1,
+					"Height": 2,
+					"X": 2,
+					"Y": 10,
+					"Z": 0
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,3 @@
+FROM httpd:2.4.51
+
+EXPOSE 80 80
